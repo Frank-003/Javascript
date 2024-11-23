@@ -1,0 +1,70 @@
+/* General page styling */
+
+body {
+    font-family: Arial, sans-serif;
+    /* Use a simple, readable font */
+    text-align: center;
+    /* Center all content */
+    margin: 0;
+    /* Remove default margins */
+    padding: 20px;
+    /* Add space around the content */
+    background-color: #f9f9f9;
+    /* Light gray background */
+}
+
+
+/* Heading styling */
+
+h1 {
+    font-size: 24px;
+    /* Make the heading larger */
+    color: #333;
+    /* Dark gray for the heading */
+    margin-bottom: 20px;
+    /* Add space below the heading */
+}
+
+
+/* Button styling */
+
+button {
+    padding: 10px 20px;
+    /* Add space inside the button */
+    font-size: 16px;
+    /* Set a readable font size */
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* White text for contrast */
+    border: none;
+    /* Remove the border */
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    cursor: pointer;
+    /* Show a pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+}
+
+
+/* Button hover effect */
+
+button:hover {
+    background-color: #45a049;
+    /* Slightly darker green when hovered */
+}
+
+
+/* Styling for the welcome message */
+
+#welcomeMessage {
+    margin-top: 20px;
+    /* Add space above the message */
+    font-size: 20px;
+    /* Make the text larger */
+    font-weight: bold;
+    /* Bold text for emphasis */
+    color: #333;
+    /* Dark gray color */
+}
